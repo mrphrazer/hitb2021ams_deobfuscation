@@ -1,0 +1,3 @@
+[submodule "msynth"]
+	path = msynth
+	url = https://github.com/mrphrazer/msynth.git

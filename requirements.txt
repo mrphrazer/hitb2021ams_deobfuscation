@@ -1,0 +1,9 @@
+wheel
+z3-solver
+
+# install submodule miasm
+-r ./msynth/miasm/requirements.txt
+-e ./msynth/miasm/
+
+# install submodule msynth
+-e ./msynth/
