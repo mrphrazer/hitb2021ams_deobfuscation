@@ -7,6 +7,9 @@ The recording will be available soon.
 ## Installation
 
 ```
+# on debian/ubuntu based systems:
+sudo apt-get install python-dev
+
 # clone repository and init submodules
 git clone https://github.com/mrphrazer/hitb2021ams_deobfuscation.git
 cd hitb2021ams_deobfuscation
