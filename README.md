@@ -15,6 +15,11 @@ git clone https://github.com/mrphrazer/hitb2021ams_deobfuscation.git
 cd hitb2021ams_deobfuscation
 git submodule update --init --rebase --recursive
 
+# on windows systems (from a Visual Studio 2019 command prompt):
+cd msynth\miasm
+python setup.py build
+cd ..\..
+
 # install dependencies
 pip install -r requirements.txt
 ```
